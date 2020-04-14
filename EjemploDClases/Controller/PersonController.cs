@@ -11,6 +11,7 @@ namespace EjemploDClases.Controller
 {
     class PersonController
     {
+  	//Alvaro
         dsClasses _ds = new dsClasses();
         PersonTableAdapter _ta = new PersonTableAdapter();
         //Ariel Gabriel
