@@ -13,7 +13,7 @@ namespace EjemploDClases.Controller
     {
         dsClasses _ds = new dsClasses();
         PersonTableAdapter _ta = new PersonTableAdapter();
-
+        //Ariel Gabriel
         dbClassesEntities _db = new dbClassesEntities();
 
         #region Atributos
