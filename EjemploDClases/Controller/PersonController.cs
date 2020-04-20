@@ -46,6 +46,11 @@ namespace EjemploDClases.Controller
             _ta.UpdateQuery(FirstName, LastName, Email, Adress, Phone, Date, pId);
             return true;
         }
+        /// <summary>
+        /// Metodo para eliminación de registro
+        /// </summary>
+        /// <param name="pId">Parametro tipo entero</param>
+        /// <returns>bool</returns>
         public bool delete(int pId)
         {
             _ta.DeleteQuery(pId);
