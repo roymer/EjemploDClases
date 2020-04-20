@@ -46,6 +46,7 @@ namespace EjemploDClases.Controller
             _ta.UpdateQuery(FirstName, LastName, Email, Adress, Phone, Date, pId);
             return true;
         }
+
         /// <summary>
         /// Metodo para eliminación de registro
         /// </summary>
