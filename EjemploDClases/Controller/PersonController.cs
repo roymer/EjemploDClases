@@ -46,6 +46,8 @@ namespace EjemploDClases.Controller
             _ta.UpdateQuery(FirstName, LastName, Email, Adress, Phone, Date, pId);
             return true;
         }
+
+        /// Este metodo sirve para eliminar un registro
         public bool delete(int pId)
         {
             _ta.DeleteQuery(pId);
